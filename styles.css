@@ -1,0 +1,259 @@
+    .structure {
+        background-color: #8fa4ac;
+        font-family: 'Quicksand', sans-serif;
+        padding-top: 10px;
+    }
+    
+    button {
+        float: right;
+    }
+    /* navigation controls */
+    
+    nav {
+        background-color: #2F86A6;
+        background: linear-gradient(rgba(50, 49, 73, 0.8), rgba(5, 49, 131, 0.8));
+        border-radius: 25px;
+        font-size: .7rem;
+        box-shadow: 0 5px 5px rgb(88, 90, 90);
+        margin: 5px 10px;
+    }
+    
+    li {
+        display: inline;
+    }
+    
+    .dropdown {
+        display: inline;
+        margin: 0;
+        height: auto;
+        width: auto;
+    }
+    
+    .navlinks {
+        margin: 0 10px;
+    }
+    
+    #dropdownMenuButton {
+        font-size: 0.8rem;
+        color: wheat;
+        position: relative;
+        left: 85%;
+        margin-bottom: 8px;
+    }
+    
+    .dropdown-item {
+        font-size: 10px;
+    }
+    
+    .navbar-brand {
+        margin-left: 3%;
+        color: #F2F5C8;
+        font-family: 'Cormorant Garamond', serif;
+    }
+    
+    .letter-p {
+        width: 20px;
+        border-radius: 25px;
+        margin-bottom: 5px;
+    }
+    
+    .social {
+        display: inline-block;
+        position: relative;
+        left: 900px;
+    }
+    
+    .fa-brands {
+        margin: 0 10px;
+    }
+    
+    .fa-brands:hover {
+        color: #8fa4ac;
+    }
+    /* body control */
+    
+    .content {
+        border-style: inset;
+        border-color: rgb(60, 61, 126);
+        margin: 15px 10px 0 10px;
+        border-radius: 25px;
+        height: 500px;
+        background-image: linear-gradient(rgba(18, 19, 18, .8), rgba(18, 19, 18, .8)), url("guitar.jpg");
+        background-size: cover;
+        background-position-y: -200px;
+        background-repeat: inherit;
+        background-origin: content-box;
+        padding-right: 0px;
+        box-shadow: 0 5px 5px rgb(88, 90, 90);
+    }
+    
+    .content-intro {
+        background-color: #0009;
+        font-family: 'Cormorant Garamond', serif;
+        display: inline-block;
+        color: #f0f0ee;
+        position: absolute;
+        right: 0px;
+        top: 200px;
+        padding: 0 50px;
+        margin-right: 25px;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        transition: 0.3s ease-out;
+    }
+    
+    .content-intro:hover {
+        transform: translateX(-30%) scaleX(150%) scaley(120%)
+    }
+    
+    .box-shape {
+        height: 497px;
+        width: 30px;
+        background-color: rgba(10, 10, 10, 1);
+        position: absolute;
+        right: 22px;
+        top: 62px;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+    
+    .copyright {
+        transform: rotate(90deg);
+        width: 200px;
+        position: absolute;
+        left: -80px;
+        top: 25%;
+        font-size: smaller;
+    }
+    
+    .about-me {
+        border-radius: 25px;
+        background: linear-gradient(rgba(10, 86, 136, 0.8), rgb(177, 191, 209));
+        box-shadow: 0 5px 5px rgb(88, 90, 90);
+        margin: 5px 10px;
+        text-align: center;
+        padding: 50px;
+    }
+    
+    .about-para {
+        width: 500px;
+        margin: 10px auto;
+        font-size: 18px;
+        font-weight: 900;
+        font-family: 'Indie Flower', cursive;
+        letter-spacing: .2rem;
+        color: #f0f0ee;
+    }
+    
+    .about-heading {
+        font-family: 'Merriweather', serif;
+        color: rgb(196, 194, 194);
+        background: linear-gradient(rgba(9, 8, 12, 0.8), rgba(112, 112, 116, 0.5));
+        border-radius: 25px;
+        text-shadow: 0 5px 5px rgb(88, 90, 90);
+        box-shadow: 0 5px 5px rgb(88, 90, 90);
+    }
+    
+    .btn {
+        margin: 30px;
+    }
+    
+    .about-paradiv {
+        background-image: linear-gradient(rgba(6, 45, 68, 0.9), rgba(17, 124, 128, 0.9)), url("https://mcdn.wallpapersafari.com/medium/48/93/7uUL5o.jpg");
+        background-size: cover;
+        padding-top: 3%;
+        border-radius: 25px;
+        box-shadow: 0 5px 5px rgb(88, 90, 90);
+    }
+    
+    .colon {
+        font-size: xx-large;
+    }
+    
+    .skills {
+        border-radius: 25px;
+        background: linear-gradient(rgba(10, 86, 136, 0.8), rgb(177, 191, 209));
+        box-shadow: 0 5px 5px rgb(88, 90, 90);
+        margin: 5px 10px;
+        text-align: center;
+        padding: 50px;
+    }
+    
+    .skills h1 {
+        color: rebeccapurple;
+        font-family: 'Merriweather', serif;
+        color: rgb(196, 194, 194);
+        background: linear-gradient(rgba(9, 8, 12, 0.8), rgba(112, 112, 116, 0.5));
+        border-radius: 25px;
+        text-shadow: 0 5px 5px rgb(88, 90, 90);
+        box-shadow: 0 5px 5px rgb(88, 90, 90);
+    }
+    
+    .skills-div {
+        background: linear-gradient(rgba(237, 240, 214, 0.4), rgba(238, 238, 162, 0.4));
+        background-size: cover;
+        padding: 3% 3%;
+        border-radius: 25px;
+        box-shadow: 0 5px 5px rgb(88, 90, 90);
+    }
+    
+    .skills-subdiv {
+        width: 35%;
+        margin: 5% 0;
+    }
+    
+    .right {
+        position: relative;
+        left: 50%;
+    }
+    
+    .skills-img {
+        width: 150px;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px black;
+    }
+    
+    .skills-subdiv h3 {
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 900;
+        background: linear-gradient(rgba(13, 66, 24, 0.5), rgba(6, 245, 97, 0.5));
+        border-radius: 25px;
+    }
+    
+    .col-lg-6 {
+        margin: 10% 0;
+    }
+    
+    .row {
+        padding-top: 10%;
+    }
+    
+    .align-left {
+        text-align: left;
+    }
+    
+    .skills-subdiv h3,
+    .skills-subdiv p {
+        padding-left: 20px;
+    }
+    
+    .foot {
+        border-radius: 25px;
+        background-color: #0a0b0c;
+        margin: 5px 10px;
+    }
+    
+    .skills-subdiv p {
+        margin-top: 20px;
+        width: 50%;
+        border-radius: 25px;
+        background-color: #f0f0ee;
+        box-shadow: 3px 3px 3px black;
+    }
+    
+    .foot p {
+        font-size: 8px;
+        color: #f0f0ee;
+        display: inline-block;
+        margin-left: 30px;
+    }
