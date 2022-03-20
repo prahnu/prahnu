@@ -1,5 +1,6 @@
 - 👋 Hi, I’m Prahnu Bordoloi
-- 👀 I’m interested in Web Designing
+- 👀 I’m interested in Web Designing.
+- 👀 I have a good understanding in HTML5, CSS, Pyhton, JavaScript. 
 - 🌱 I’m currently learning React.js
 - 💞️ I’m looking to collaborate on Front-end web development
 - 📫 You can contact me through email : prahnu07@gmal.com
